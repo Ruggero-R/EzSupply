@@ -52,8 +52,7 @@ yarn-error.*
 logs
 *.log
 
-# Firebase (optional - uncomment if you want to ignore config)
-# src/config/firebase.ts
+# Firebase config now uses environment variables - file is safe to commit
 
 # Build artifacts
 build/
