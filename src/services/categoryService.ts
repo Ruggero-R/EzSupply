@@ -22,7 +22,7 @@ export class CategoryService {
         }
 
         try {
-            console.log('Fetching categories from Firestore');
+            // console.log('Fetching categories from Firestore');
             const querySnapshot = await getDocs(collection(db, this.COLLECTION));
             
             const categories: Category[] = [];
