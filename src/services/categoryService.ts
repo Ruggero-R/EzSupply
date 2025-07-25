@@ -1,6 +1,6 @@
 import { db } from '../config/firebase';
 import { collection, getDocs, DocumentData, QuerySnapshot } from 'firebase/firestore';
-import type { Category } from '../models/Category';
+import type { Category } from '../models/category';
 
 export class CategoryService {
     private static readonly COLLECTION = 'categories';
